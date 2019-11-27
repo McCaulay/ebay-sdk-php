@@ -1,5 +1,5 @@
 {
-    "name": "McCaulay/ebay-sdk-php",
+    "name": "dst/ebay-sdk-php",
     "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
     "keywords": [
         "ebay",
