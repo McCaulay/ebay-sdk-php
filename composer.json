@@ -1,7 +1,11 @@
 {
-    "name": "dts/ebay-sdk-php",
+    "name": "McCaulay/ebay-sdk-php",
     "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
-    "keywords": ["ebay", "api", "sdk"],
+    "keywords": [
+        "ebay",
+        "api",
+        "sdk"
+    ],
     "homepage": "http://devbay.net/",
     "type": "library",
     "license": "(Apache-2.0 and MIT)",
@@ -29,12 +33,16 @@
         "psr-4": {
             "DTS\\eBaySDK\\": "src/"
         },
-        "files": ["src/functions.php"]
+        "files": [
+            "src/functions.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
             "DTS\\eBaySDK\\Test\\": "test/"
         },
-        "classmap": ["build/"]
+        "classmap": [
+            "build/"
+        ]
     }
 }
